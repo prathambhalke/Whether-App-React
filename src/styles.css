@@ -1,0 +1,123 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+
+  background-image: linear-gradient(
+    to right,
+    #4febf4,
+    #5bd6e8,
+    #68c1d7,
+    #70acc3,
+    #7598ac,
+    #7597aa,
+    #7697a7,
+    #7696a5,
+    #76a8b4,
+    #77babf,
+    #7dccc6,
+    #8bddc7
+  );
+}
+
+.fa-cloud {
+  color: black;
+  font-size: 50px;
+}
+.fa-raindrops {
+  color: black;
+  font-size: 50px;
+}
+.main-container {
+  height: 400px;
+  border-radius: 8px;
+  width: 50%;
+  margin: auto;
+  margin-top: 24px;
+  -webkit-box-shadow: 6px 15px 48px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 15px 48px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 15px 48px -6px rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(
+    to right top,
+    #88f8ff,
+    #63e8ff,
+    #3bd8ff,
+    #0cc6ff,
+    #00b3ff,
+    #00affc,
+    #00acfa,
+    #00a8f7,
+    #00b2ea,
+    #00b8d3,
+    #00bbb6,
+    #39bc98
+  );
+}
+
+.input {
+  padding: 12px;
+  width: 80%;
+  border: none;
+  border-radius: 12px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.show {
+  margin-top: 34px;
+}
+
+.fa-street-view {
+  font-size: 74px;
+}
+.cityname {
+  font-size: 38px;
+  margin-left: 12px;
+  color: white;
+  font-weight: bold;
+}
+.citytemp {
+  margin-top: 45px;
+  font-size: 18px;
+  color: white;
+}
+.citycel {
+  margin-top: 35px;
+  font-size: 18px;
+  color: grey;
+}
+
+.fa-sun {
+  color: yellow;
+  font-size: 58px;
+}
+p {
+  color: white;
+  margin: auto;
+  font-size: 30px;
+  margin-top: 12px;
+}
+.fa-cloud-sun-rain {
+  margin-top: 95px;
+  color: orange;
+  font-size: 80px;
+}
+
+.icons {
+  font-size: 50px;
+  margin-top: 24px;
+  margin-left: 12px;
+}
+.fa-umbrella {
+  color: purple;
+}
+.fa-wind {
+  color: greenyellow;
+}
